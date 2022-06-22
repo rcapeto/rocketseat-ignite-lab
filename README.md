@@ -46,6 +46,7 @@ The app will be available in the [web address](http://localhost:3000).
 
 ## 🔖 Layout
 <!-- <img width="1440" alt="Dashboard Preview" src="https://user-images.githubusercontent.com/61842405/164878499-86afefd6-1dff-44bb-a045-acf823e186f8.png"> -->
+Here: [figma](https://www.figma.com/file/iK9XZBVZ7s8ljZwaq3mN2Q/Plataforma-de-evento---Ignite-Lab-(Community)?node-id=8%3A399)
 
 
 ## 👨🏻‍💻 Devs
