@@ -4,3 +4,7 @@ export interface LessonComponentProps {
    availableAt: Date;
    type: 'live' | 'class';
 };
+
+export interface VideoComponentProps {
+   lessonSlug: string;
+};

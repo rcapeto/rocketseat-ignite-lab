@@ -1,6 +1,7 @@
 import { FunctionComponent } from 'react';
 import { CheckCircle, Lock } from 'phosphor-react';
 import { isPast, format } from 'date-fns';
+import { Link } from 'react-router-dom';
 import ptBR from 'date-fns/locale/pt-BR';
 
 import { LessonComponentProps } from '../@types/componentes';
@@ -15,12 +16,12 @@ export const Lesson: FunctionComponent<LessonComponentProps> = ({
    const dateFormat = format(availableAt, "EEEE' • 'd' de 'MMMM' • 'k'h'mm", { locale: ptBR });
 
    return(
-      <a href="#">
+      <Link to={`/event/lesson/${slug}`} className="group">
          <span className="text-gray-300">
             {dateFormat.replace(dateFormat[0], dateFormat[0].toUpperCase())}
          </span>
 
-         <div className="rounded border border-gray-500 p-4 mt-2">
+         <div className="rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500 transition-colors">
             <header className="flex justify-between items-center">
                {
                   isLessonAvailable ? (
@@ -44,6 +45,6 @@ export const Lesson: FunctionComponent<LessonComponentProps> = ({
                {title}
             </strong>
          </div>
-      </a>
+      </Link>
    );
 };

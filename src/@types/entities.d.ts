@@ -5,3 +5,14 @@ export interface Lesson {
    slug: string;
    title: string;
 };
+
+export interface LessonEventPage {
+   title: string;
+   description: string;
+   videoId: string;
+   teacher: {
+      bio: string;
+      avatarURL: string;
+      name: string;
+   }
+}

@@ -18,6 +18,7 @@ This project has developed with:
 - [Date-FNS](https://date-fns.org/docs/Getting-Started)
 - [GraphQL](https://graphql.org/)
 - [Phosphor](https://phosphoricons.com/)
+- [VimeJS](https://vimejs.com/)
 
 ## 🚀 How to execute
 
