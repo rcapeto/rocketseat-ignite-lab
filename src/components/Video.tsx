@@ -4,7 +4,7 @@ import { DefaultUi, Player, Youtube } from '@vime/react';
 import { useQuery } from '@apollo/client';
 
 import { VideoComponentProps } from '../@types/componentes';
-import { GET_LESSON_WITH_SLUG } from '../queries/lessons_sidebar';
+import { GET_LESSON_WITH_SLUG } from '../queries';
 import { LessonEventPage } from '../@types/entities';
 
 

@@ -2,7 +2,7 @@ import { useQuery } from '@apollo/client';
 import { FunctionComponent } from 'react';
 
 import { Lesson } from './Lesson';
-import { GET_LESSONS_SIDEBAR } from '../queries/lessons_sidebar';
+import { GET_LESSONS_SIDEBAR } from '../queries';
 import { Lesson as LessonEntity } from '../@types/entities';
 
 export interface GetLessionsSidebar {
